@@ -1,0 +1,25 @@
+# EditorConfig is awesome:
+# https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+max_line_length = 80
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 80
+
+[*.{nf,groovy,config}]
+indent_style = space
+indent_size = 4
+curly_bracket_next_line = false
+
+[*.{yml,yaml,json}]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = false
